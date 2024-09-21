@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.navbarSection{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    color: rgb(234, 233, 236);
+    font-family:"Montserrat", sans-serif ;
+    padding: 18px;
+}
+.navIcon{
+    color:  rgb(234, 233, 236);
+    padding: 25px;
+}
+.navbarIcons{
+    margin-top: 5px;
+}
+.homepageLink{
+    text-decoration: none;
+}
+.productImages{
+    margin: 10px;
+}
+
+.productDetails{
+    background-color: black;
+    display: flex;
+}
+.productImg-side{
+    width: 110px;
+    height: 110px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin: 20px 25px;
+    padding: 10px;
+}
+.productImg-side:hover{
+    border: 2px solid white;
+}
+.product-Image{
+    width: 750px;
+    height: 630px;
+    margin-top:10px ;
+}
+.ratings{
+    display: flex;
+    margin: 15px 0px 20px -20px;
+}
+
+.productDetails-descriptions{
+    margin: 20px;
+}
+.productName{
+    font-family:"Montserrat", sans-serif ; 
+    color:rgb(195, 186, 213);
+    font-weight: 700; 
+    font-size: 35px;
+}
+.productDescription{
+    font-family:"Montserrat", sans-serif ; 
+    color:rgb(195, 186, 213);
+    font-weight: 400; 
+    font-size: 25px;
+    margin: 3px 0px;
+}
+.starRating i{
+    color: red;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+.yearRatings{
+    font-family:"Montserrat", sans-serif ; 
+    color:grey;
+    font-weight: 400; 
+    font-size: 20px;
+}
+.productAmount-deatils{
+    margin-top: 20px;
+    display: flex;
+}
+.offerPrice{
+    color: rgb(195, 186, 213);
+    padding:5px 5px 0px 0px ;
+    font-weight: 700;
+    font-size: 40px;
+    font-family:"Montserrat", sans-serif ;
+}
+.actualPrice{
+    color:grey;
+    padding:5px 5px 0px 15px ;
+    font-weight: 700;
+    font-size: 35px;
+    font-family:"Montserrat", sans-serif ;
+    text-decoration: line-through;
+}
+.savingAmount-description{
+    color: green;
+    font-family:"Montserrat", sans-serif ;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0px 8px 0px;
+}
+.taxDescription{
+    color: grey;
+    font-family:"Montserrat", sans-serif ;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0px 25px 0px;
+}
+.offerDescription{
+    font-family:"Montserrat", sans-serif ; 
+    color:rgb(195, 186, 213);
+    font-weight: 400; 
+    font-size: 20px;
+    padding-top: 15px;
+}
+.stockBtn{
+    background-color: green;
+    color: white;
+    font-family:"Montserrat", sans-serif ; 
+    font-weight: 700; 
+    padding: 10px 15px;
+    border-radius: 4px;
+    border-style: none;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.stock{
+    color: white;
+}
+.cashDetails{
+    display: flex;
+}
+.emiDetails{
+    font-family:"Montserrat", sans-serif ; 
+    color:rgb(195, 186, 213);
+    font-weight: 400; 
+    font-size: 15px;
+    border:1px solid grey;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 20px 7px 20px 7px;
+    width: 200px;
+}
+hr{
+    border: 1px solid rgb(55, 55, 55);
+}
+.addtoCartButton{
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 400; 
+    font-family:"Montserrat", sans-serif ; 
+    border-style: none;
+    border-radius: 3px;
+    width: 50%;
+    margin-top: 10px;
+}
+.specificationsBtn{
+    color: white;
+    background-color: red;
+    padding: 10px 15px;
+    font-family:"Montserrat", sans-serif ; 
+    border-style: none;
+    border-radius: 3px;
+    font-size: 25px;
+    margin: 0px 25px;
+}
+.overviewBtn,.reviewBtn{
+    color: rgb(195, 186, 213);
+    font-family:"Montserrat", sans-serif ; 
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 3px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    margin: 0px 25px;
+}
+.productFeatures{
+    padding: 200px 200px 0px 200px;
+    background-color: black;
+    text-align: center;
+}
+.overviewBtn:hover,.reviewBtn:hover{
+    background-color: red;
+}
+.productOverview{
+    display: flex;
+    background-color: black;
+    padding: 70px 0px 50px 30px;
+}
+li{
+    color: rgb(195, 186, 213);
+    font-family:"Montserrat", sans-serif ; 
+    padding: 15px;
+    list-style: none;
+}
+.productHeadings{
+    margin-right: 200px;
+}
+.productInfo ul li{
+   font-weight: 600;
+   text-align: end;
+}
+
+.advantagesSection{
+    background-color: black;
+    padding: 120px 30px 30px 30px;
+}
+.advantageTitle{
+    color: rgb(195, 186, 213);
+    text-align: center;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+.advantages{
+    display: flex;
+    margin: 80px 0px 60px 0px;
+    justify-content: space-between;
+}
+.adv{
+    display:flex;
+}
+.advIcon{
+    color: red;
+    font-size: 50px;
+    padding-right: 10px;
+}
+.advantageHeading{
+    color: rgb(195, 186, 213);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.advantageDescription{
+    color: rgb(195, 186, 213);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.subscribeSection{
+    background-color:black;
+}
+.subscriberSection-Content{
+   padding: 40px 20px;
+   display: flex;
+}
+.subscriberHeading{
+    color:rgb(195, 186, 213) ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.subscriberDescription{
+    color:rgb(195, 186, 213) ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 7px 0px;
+}
+.subscriberEmail{
+    border-radius: 3px;
+    background: none;
+    border-style: none;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 0px 10px 10px ;
+    border: 1px solid grey;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.subscriberButton{
+    color: white;
+    background-color: red;
+    font-family: "Montserrat", sans-serif;
+    padding: 12px 25px;
+    border-style: none;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.aboutCompanyDetails{
+    margin: 0px 70px;
+}
+td{
+    padding: 6px 100px;
+    font-family: "Montserrat", sans-serif ;
+    color:grey ;
+}
+.heading{
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+    color:rgb(195, 186, 213)  ;
+    font-size: 20px;
+}
+.footerContent{
+    padding: 20px 20px;
+    font-family:"Montserrat", sans-serif ; 
+    color:rgb(195, 186, 213);
+    font-weight: 400;
+    width: 75%;
+}
+.creator{
+    color: rgb(219, 184, 96);
+}
+.footerSection{
+    display: flex;
+    background-color: black;
+    
+}
+.socialmediaIcon{
+    padding: 20px 25px;
+    color:rgb(195, 186, 213);
+    
+}
+.horizontalLine{
+    border: 1px solid rgb(64, 63, 63);
+    margin: 0;
+}
+.productCards{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px;
+    justify-content: space-evenly;
+}
+.productCard1{
+    width: 360px;
+    border:1px solid grey;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.productImage{
+    width: 200px;
+    height: 200px;
+    margin: 10px 0px;
+    width: 100%;
+    object-fit: contain;
+}
+.productCard-title{
+    color:rgb(195, 186, 213) ;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+    padding: 8px 8px 0px 20px;
+    font-size: 30px;
+}
+.produtCard-description{
+    color:rgb(195, 186, 213) ;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 400;
+    padding:8px 8px 0px 20px ;
+}
+hr{
+    border: 1px solid rgb(55, 55, 55);
+    margin: 15px 18px;
+}
+.productCard-bill{
+    color: rgb(195, 186, 213);
+    padding:5px 5px 0px 20px ;
+    font-weight: 700;
+    font-size: 30px;
+    font-family:"Montserrat", sans-serif ;
+}
+.productCard-oldamount{
+    color:grey;
+    padding:5px 5px 0px 20px ;
+    font-weight: 700;
+    font-size: 25px;
+    font-family:"Montserrat", sans-serif ;
+    text-decoration: line-through;
+}
+.productCard-button{
+    color: white;
+    background-color: red;
+    margin: 15px;
+    font-family:"Montserrat", sans-serif;
+    border-style: none;
+    padding: 10px 15px;
+    width: 92%;
+    border-radius: 3px;
+}
+.starRating{
+    color: red;
+    padding-left: 20px;
+}
+.relatedProducts{
+    padding: 90px 0px 70px 0px;
+    text-align: center;
+    background-color: black;
+    color: rgb(195, 186, 213) ;
+    font-weight: 700;
+    font-size: 30px;
+    font-family:"Montserrat", sans-serif ;
+}
+.horizontal{
+    margin: 20px 0px;
+    border: 1px solid rgb(64,63,63);
+}

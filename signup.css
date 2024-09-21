@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.navbarSection{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    color: rgb(234, 233, 236);
+    font-family:"Montserrat", sans-serif ;
+    padding: 18px;
+}
+.navIcon{
+    color:  rgb(234, 233, 236);
+    padding: 25px;
+}
+.navbarIcons{
+    margin-top: 5px;
+}
+.homepageLink{
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+.signupPage-card{
+    background-color: rgb(53, 52, 51);
+    width: 400px;
+    margin:30px auto;
+    border-radius: 4px;
+}
+.signupHeading{
+    font-family:"Montserrat", sans-serif ; 
+    color:white;
+    font-weight: 700; 
+    padding: 30px 0px 8px 20px;
+}
+.signupDescription{
+    font-family:"Montserrat", sans-serif ; 
+    color:white;
+    font-weight: 400; 
+    padding: 0px 0px 10px 20px;
+}
+.signupInputs{
+    background: none;
+    color: white;
+    padding: 15px;
+    border-style: none;
+    border: 1px solid white;
+    margin: 10px 20px;
+    width: 90%;
+    border-radius: 3px;
+    font-family:"Montserrat", sans-serif ; 
+}
+.signupButton{
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 90%;
+    margin: 20px;
+    border-style: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-family:"Montserrat", sans-serif ; 
+}
+.signupChoice-description{
+    font-family:"Montserrat", sans-serif ; 
+    color:white;
+    font-weight: 400; 
+    text-align: center;
+}
+.socialButtons{
+   display: flex;
+   justify-content:center;
+   padding: 20px 20px 30px 20px;
+
+}
+.facebookButton{
+    padding: 10px;
+    font-family:"Montserrat", sans-serif ;
+    color:white;
+    background-color: dodgerblue;
+    border-style: none;
+    border-radius: 2px;
+    width: 100px;
+    margin: 10px;
+}
+.googleButton{
+    padding: 10px;
+    font-family:"Montserrat", sans-serif ;
+    color:white;
+    background-color: red;
+    border-style: none;
+    border-radius: 2px;
+    width: 100px;
+    margin: 10px;
+}
+.twitterButton{
+    padding: 10px;
+    font-family:"Montserrat", sans-serif ;
+    color:white;
+    background-color: rgb(72, 199, 241);
+    border-style: none;
+    border-radius: 2px;
+    width: 100px;
+    margin: 10px; 
+}

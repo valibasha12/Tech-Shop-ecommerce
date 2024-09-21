@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbarSection{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    color: rgb(234, 233, 236);
+    font-family:"Montserrat", sans-serif ;
+    padding: 18px;
+}
+.navIcon{
+    color:  rgb(234, 233, 236);
+    padding: 25px;
+}
+.navbarIcons{
+    margin-top: 5px;
+}
+.homepageLink{
+    text-decoration: none;
+}
+.cartpage-details{
+    display: flex;
+    background-color: black;
+}
+.addingProducts-details{
+    margin: 30px 30px 70px 20px;
+    background-color: rgb(30, 29, 29);
+    height: 590px;
+    width: 60%;
+    overflow-y: scroll;
+    scrollbar-color: rgb(64,63,63);
+}
+.prod1Details{
+    display: flex;
+}
+.prodImage{
+    width: 250px;
+    height: 250px;
+    padding:30px 30px;
+}
+.prod1Name{
+    color: rgb(234, 233, 236);
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 25px 40px;
+}
+.prod1Amount{
+    color: rgb(234, 233, 236);
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 40px;
+}
+.prod1actualPrice{
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: line-through;
+    color: grey;
+    padding-left: 5px;
+}
+.decrementBtn{
+    padding: 5px;
+    background-color: rgb(55,54,54);
+    border: 1px solid grey;
+    padding: 5px;
+    font-size: 30px;
+    width: 70px;
+    color: white;
+    font-family:"Montserrat", sans-serif ;
+}
+.incrementBtn{
+    padding: 5px;
+    background-color: rgb(55, 54, 54);
+    border: 1px solid grey;
+    padding: 5px;
+    font-size: 30px;
+    width: 70px;
+    color: white;
+    font-family:"Montserrat", sans-serif ;
+}
+.countBtn{
+    padding: 5px;
+    background-color:black;
+    border: 1px solid grey;
+    padding: 5px;
+    font-size: 30px;
+    width: 70px;
+    color: red;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+    border-right: none;
+    border-left: none;
+}
+.btns{
+    display: flex;
+    padding: 30px 40px;
+}
+.thrashIcon{
+    color:rgb(234, 233, 236) ;
+    font-size: 25px;
+    padding: 30px 50px;
+}
+hr{
+    margin: 20px 40px;
+    border: 1px solid rgb(83, 82, 82);
+}
+
+.orderSummary-details{
+    color: rgb(234, 233, 236);
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 40px 0px 0px 80px;
+}
+.priceDetails{
+    display: flex;
+}
+.originalPrice{
+    color: rgb(234, 233, 236);
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 40px 0px 0px 80px;
+}
+.discount{
+    color: rgb(234, 233, 236);
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px 0px 0px 80px;
+}
+.delivery{
+    color: rgb(234, 233, 236);
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px 0px 0px 80px;
+}
+.opPrice{
+    color: rgb(234, 233, 236);
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 40px 0px 0px 200px;
+}
+.discountPrice{
+    color: green;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 0px 0px 190px;
+}
+.free{
+    color: green;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 0px 0px 200px;
+}
+.priceside-hrLine{
+    margin: 50px 10px 50px 75px;
+}
+.totalPrice{
+    color: rgb(234, 233, 236);
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+    font-size: 28px;
+    padding-left: 80px;
+}
+.totalPrice-amount{
+    color: rgb(234, 233, 236);
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 125px;
+}
+.totalPrice-details{
+    display: flex;
+}
+.checkout{
+   background-color: red;
+   margin: 40px 30px 0px 70px;
+   border-style: none;
+   border-radius: 3px;
+   padding: 10px 20px;
+   color: white;
+   width: 85%;
+   font-size: 15px;
+}
+.subscribeSection{
+    background-color:black;
+}
+.subscriberSection-Content{
+   padding: 40px 20px;
+   display: flex;
+}
+.subscriberHeading{
+    color:rgb(195, 186, 213) ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.subscriberDescription{
+    color:rgb(195, 186, 213) ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 7px 0px;
+}
+.subscriberEmail{
+    border-radius: 3px;
+    background: none;
+    border-style: none;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 0px 10px 10px ;
+    border: 1px solid grey;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.subscriberButton{
+    color: white;
+    background-color: red;
+    font-family: "Montserrat", sans-serif;
+    padding: 12px 25px;
+    border-style: none;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.aboutCompanyDetails{
+    margin: 0px 70px;
+}
+td{
+    padding: 6px 100px;
+    font-family: "Montserrat", sans-serif ;
+    color:grey ;
+}
+.heading{
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+    color:rgb(195, 186, 213)  ;
+    font-size: 20px;
+}
+.footerContent{
+    padding: 20px 20px;
+    font-family:"Montserrat", sans-serif ; 
+    color:rgb(195, 186, 213);
+    font-weight: 400;
+    width: 75%;
+}
+.creator{
+    color: rgb(219, 184, 96);
+}
+.footerSection{
+    display: flex;
+    background-color: black;
+    
+}
+.socialmediaIcon{
+    padding: 20px 25px;
+    color:rgb(195, 186, 213);
+    
+}
+.horizontalLine{
+    margin: 0px;
+    border: 1px solid rgb(64,63,63);
+}
